@@ -2,6 +2,7 @@ package poker;
 import java.util.*;
 
 public class Poker {
+	// Comparator for sorting card number.
 	Comparator<String> comp = new Comparator<String>() {
 		@Override
 		public int compare(String o1, String o2) {
